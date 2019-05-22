@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        powershell(script: 'sudo apt-get install npm', returnStatus: true, returnStdout: true)
+        sh 'sudo apt-get install npm;'
       }
     }
   }
