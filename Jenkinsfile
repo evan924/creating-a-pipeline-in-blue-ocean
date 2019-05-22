@@ -9,8 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''sudo chown -R $(ziyiwang) ~/.npm;
-npm install'''
+        sh 'sudo apt-get install npm'
       }
     }
   }
