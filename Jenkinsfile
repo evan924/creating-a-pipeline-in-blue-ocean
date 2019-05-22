@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''sudo chown -R $(whoami) ~/.npm
+        sh '''sudo chown -R $(ziyiwang) ~/.npm
 npm install'''
       }
     }
