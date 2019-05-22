@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sudo apt-get install npm'
+        sh 'brew install node'
       }
     }
   }
