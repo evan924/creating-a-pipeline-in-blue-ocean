@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        powershell 'brew install node'
+        powershell 'sudo apt-get install npm'
       }
     }
   }
