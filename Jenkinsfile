@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'brew install node'
+        powershell 'brew install node'
       }
     }
   }
